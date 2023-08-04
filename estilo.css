@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+}
+
+
+body {
+    background: black;
+color: white;
+
+}
+
+h1{
+    font-size: 30px;
+}
+
+h1 strong {
+    color: black;
+}
+
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    height: inherit ;
+}
+
+.header{
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    font-family: 'Lumanosimo', cursive;
+}
+
+.header li{
+    height: inherit;
+    font-family: 'Lumanosimo', cursive;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.logo img{
+    width: 100px;
+}
+
+.menu{
+    height: inherit;
+}
+
+.principal {
+    background: rgb(255, 255, 255);
+    color: white;
+    background-image: url('img/fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Lumanosimo', cursive;
+    text-align: center;
+    padding: 100px;
+}
+
+.principal-boton{
+    width: 250px;
+    height: 40px;
+    background-color:#0096c7;
+    border-radius: 24px;
+    border: none;
+    font-size: 20px;
+    cursor:  pointer;
+    margin-top: 10px;
+}
+
+.principal img {
+width: 300px;
+border-radius: 400px;
+}
+
+.somos {
+    background: #0096c7;
+    color: black;
+    text-align: center;
+    font-family: 'Lumanosimo', cursive;
+}
+.principe {
+    background: #024d93;
+    color: black;
+    text-align: left;
+    font-family: 'Lumanosimo', cursive;
+    
+}
